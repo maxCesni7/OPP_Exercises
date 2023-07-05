@@ -89,10 +89,6 @@
 * Implement a function that, for each student, show if he/she is above course average or not.
 
 # Object Oriented Programming - Advanced
-
- <br/>
- <br/>
- 
  
  ## Part 1: Packages, Access Modifiers and Encapsulation
  
