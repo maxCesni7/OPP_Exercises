@@ -6,7 +6,7 @@
  
  ## Part 1: Exploring the School System Project
  
- 1. Create a new Java project using IntelliJ Idea.
+ 1. Create a new Java project using Eclipse IDE.
  2. Create a *Student* class. This class must have the following attributes:
 
  ```java
@@ -92,7 +92,7 @@
  
  ## Part 1: Packages, Access Modifiers and Encapsulation
  
- 1. Download the source code, import the project into IntelliJ Idea and run it to verify it works correctly.
+ 1. Download the source code, import the project into Eclipse IDE and run it to verify it works correctly.
  2. Go through the entire project and read the different classes and components trying to understand the logic behind.
  3. Create at least two packages to organize your project better. Move the corresponding classes to the packages.
  4. Modify the *Student* class so it follows the encapsulation principle keeping data private to the class.
