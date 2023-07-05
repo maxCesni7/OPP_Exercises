@@ -3,9 +3,6 @@
 
 # Object Oriented Programming - Fundamentals
 
- <br/>
- <br/>
- 
  
  ## Part 1: Exploring the School System Project
  
