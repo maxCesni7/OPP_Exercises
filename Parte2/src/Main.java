@@ -1,6 +1,8 @@
-package com.generation;
+import com.generation.Student;
+import com.generation.StudentNotFoundException;
+import com.generation.StudentService;
 
-public class Main {
+public class Main{
 
     public static void main(String[] args) {
 	    StudentService studentService = new StudentService();
@@ -11,5 +13,15 @@ public class Main {
         studentService.students.put( "1020", new Student( "Santiago", "1020", 33 ) );
 
         studentService.enrollStudents( "Math", "1030" );
+        studentService.enrollStudents( "Math", "1050" );
+        studentService.enrollStudents( "Art", "1040" );
+        //studentService.showEnrolledStudents("Math");
+        
+        System.out.println(studentService);
+        studentService.showAllCourses();
+        studentService.showEnrolledStudents("Math");
+        
+        
+        
     }
 }
